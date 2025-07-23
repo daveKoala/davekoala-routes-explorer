@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DaveKoala: Route Archaeologist</title>
+    <title>DaveKoala: Route Explorer & Archaeologist</title>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 @include('routes-explorer::partials.styles')
 </head>
 <body>
     <div class="container">
-        <h1>DaveKoala: Route Archaeologist</h1>
+        <h1>DaveKoala: Route Explorer & Archaeologist</h1>
         
         <form method="GET" class="search-box">
             <input type="text" name="search" placeholder="Search routes..." value="{{ request('search') }}">

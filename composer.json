@@ -1,6 +1,6 @@
 {
   "name": "davekoala/routes-explorer",
-  "description": "Laravel package for aing routes and their complete dependency chains",
+  "description": "Laravel package for exploring routes and their complete dependency chains",
   "type": "library",
   "license": "MIT",
   "autoload": {
