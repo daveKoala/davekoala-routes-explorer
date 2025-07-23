@@ -79,7 +79,26 @@ The `class_exists()` check is crucial because it prevents false positives. Witho
 -   Add functionality to explore classes directly? Form to take full namespace and class name and(?) method?
 -   How to turn this into a Composer package and publish? Time to show to people?
 
-## Contributing / Feedback
+## Installation
 
-If this sounds useful, or you want to contribute ideas, feel free to raise an issue or reach out.
-# davekoala-routes-explorer
+Install via Composer:
+
+```bash
+composer require davekoala/routes-explorer --dev
+```
+
+Then visit `http://your-app.local/dev/routes-explorer` in your browser.
+
+## Security
+
+This package is designed for development environments only. It includes security middleware that restricts access to development environments (`local`, `development`, `testing`) and requires debug mode to be enabled.
+
+## Contributing / Support
+
+- **Issues & Bug Reports**: [GitHub Issues](https://github.com/davidclare/davekoala-routes-explorer/issues)
+- **Questions & Discussions**: [GitHub Discussions](https://github.com/davidclare/davekoala-routes-explorer/discussions)
+- **Contact**: Feel free to reach out via GitHub for any questions or suggestions
+
+## License
+
+This package is open-sourced software licensed under the [MIT license](LICENSE).
